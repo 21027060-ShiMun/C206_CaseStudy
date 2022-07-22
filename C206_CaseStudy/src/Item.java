@@ -24,7 +24,6 @@ public class Item {
 		return price;
 	}
 
-
 	public boolean getIsAvailable() {
 		return isAvailable;
 	}

@@ -22,8 +22,6 @@ public class C206_CaseStudyTest {
 	public C206_CaseStudyTest() {
 		super();
 	}
-
-
 	
 
 }
