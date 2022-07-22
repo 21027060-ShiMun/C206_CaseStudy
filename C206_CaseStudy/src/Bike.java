@@ -1,5 +1,4 @@
 
-public class Bike extends Items{
-
+public class Bike extends Items{s
 	
 }
