@@ -11,7 +11,6 @@ public class Item {
 		this.price = price;
 		this.isAvailable = true;
 	}
-	
 
 	public String getAssetTag() {
 		return assetTag;
