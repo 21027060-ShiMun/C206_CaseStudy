@@ -11,5 +11,6 @@ public class C206_CaseStudy {
 		bikeList.add(new Bike());
 		bikePartList.add(new BikeParts());
 		bikePartList.add(new BikeParts());
+		
 	}
 }

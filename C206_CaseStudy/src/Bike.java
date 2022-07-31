@@ -9,5 +9,6 @@ public class Bike extends Item{
 	
 	public String getBikeType() {
 		return bikeType;
+		
 	}
 }
