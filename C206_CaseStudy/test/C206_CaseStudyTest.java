@@ -58,6 +58,23 @@ public class C206_CaseStudyTest {
 	}
 	
 	@Test
-	
+	public void testAddBike() {
+		// Item list is not null, so that can add a new item
+				assertNotNull("Test if there is valid Bike arraylist to add to", bikeList);
+				
+				//Given an empty list, after adding 1 item, the size of the list is 1
+				CaseStudy.add(bikeList, b1);		
+				assertEquals("Test if that Bike arraylist size is 1?", 1, bikeList.size());
+				
+				//The item just added is as same as the first item of the list
+				assertSame("Test that Bike is added same as 1st item of the list?", b1, bikeList.get(0));
+				
+				//Add another item. test The size of the list is 2?
+				CaseStudy.addBike(bikeList, b2);
+				CaseStudy.addBike(bikeList, b3);
+				assertEquals("Test that Camcorder arraylist size is 3?", 3, bikeList.size());
+				assertSame("Test that Camcorder is added same as 3rd item of the list?", b3, bikeList.get(2));
+			}
+	}
 	
 }
